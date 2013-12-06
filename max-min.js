@@ -16,7 +16,7 @@ var num = function(n) {
       if (n % 10 < min) {
         min = n % 10;
       }
-      if (n % 10 > 0) {
+      if (n % 10 > max) {
         max = n % 10;
       }
       n = Math.floor(n / 10);
